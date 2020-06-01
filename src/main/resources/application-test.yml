@@ -1,0 +1,6 @@
+platform:
+  ikinloop:
+    ipc:
+      ikinloop-api:
+        login-url: http://localhost:18060/v2/login
+        login-params-generate-class: com.ikinloop.platform.ikinloop.ipc.generator.IkinloopCommonApiLoginParamsGenerator

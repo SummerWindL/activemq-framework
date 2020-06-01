@@ -1,0 +1,14 @@
+server:
+  port: 16089
+
+spring:
+  activemq:
+    broker-url: tcp://192.168.9.203:61616
+    user: admin
+    password: admin
+    packages:
+      trust-all: true # 可信任的反序列包
+
+
+#自定义配置
+queuename: queue1
